@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/IguteChung/flakbase/pkg/data"
-	"github.com/IguteChung/flakbase/pkg/rules"
+	"github.com/creepinson/flakbase/pkg/data"
+	"github.com/creepinson/flakbase/pkg/rules"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

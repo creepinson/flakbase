@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/IguteChung/flakbase/pkg/data"
-	"github.com/IguteChung/flakbase/pkg/db"
+	"github.com/creepinson/flakbase/pkg/data"
+	"github.com/creepinson/flakbase/pkg/db"
 )
 
 type handler struct {

@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/IguteChung/flakbase/pkg/data"
-	"github.com/IguteChung/flakbase/pkg/store"
+	"github.com/creepinson/flakbase/pkg/data"
+	"github.com/creepinson/flakbase/pkg/store"
 	"github.com/gorilla/websocket"
 )
 

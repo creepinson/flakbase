@@ -1,7 +1,7 @@
 package main
 
 import (
-	flakbase "github.com/IguteChung/flakbase/cmd"
+	flakbase "github.com/creepinson/flakbase/cmd"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/IguteChung/flakbase/pkg/store"
+	"github.com/creepinson/flakbase/pkg/store"
 	"github.com/gorilla/websocket"
 )
 

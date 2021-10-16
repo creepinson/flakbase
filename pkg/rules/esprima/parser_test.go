@@ -16,7 +16,7 @@ func TestParse(t *testing.T) {
 				Type:       "Program",
 				SourceType: "script",
 				Body: []*ExpressionStatement{
-					&ExpressionStatement{
+					{
 						Type: "ExpressionStatement",
 						Expression: &Expression{
 							Type: "LogicalExpression",
@@ -83,7 +83,7 @@ func TestParse(t *testing.T) {
 				Type:       "Program",
 				SourceType: "script",
 				Body: []*ExpressionStatement{
-					&ExpressionStatement{
+					{
 						Type: "ExpressionStatement",
 						Expression: &Expression{
 							Type: "CallExpression",
@@ -107,18 +107,18 @@ func TestParse(t *testing.T) {
 									},
 								},
 								Arguments: []*Expression{
-									&Expression{
+									{
 										Type: "ArrayExpression",
 										ArrayExpression: &ArrayExpression{
 											Elements: []*Expression{
-												&Expression{
+												{
 													Type: "Literal",
 													Literal: &Literal{
 														Value: "name",
 														Raw:   "'name'",
 													},
 												},
-												&Expression{
+												{
 													Type: "Literal",
 													Literal: &Literal{
 														Value: "age",
@@ -141,7 +141,7 @@ func TestParse(t *testing.T) {
 				Type:       "Program",
 				SourceType: "script",
 				Body: []*ExpressionStatement{
-					&ExpressionStatement{
+					{
 						Type: "ExpressionStatement",
 						Expression: &Expression{
 							Type: "CallExpression",
@@ -183,7 +183,7 @@ func TestParse(t *testing.T) {
 									},
 								},
 								Arguments: []*Expression{
-									&Expression{
+									{
 										Type: "Literal",
 										Literal: &Literal{
 											Value: "/^foo/",

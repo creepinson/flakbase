@@ -3,7 +3,7 @@ package store
 import (
 	"testing"
 
-	"github.com/IguteChung/flakbase/pkg/data"
+	"github.com/creepinson/flakbase/pkg/data"
 	"github.com/stretchr/testify/assert"
 )
 

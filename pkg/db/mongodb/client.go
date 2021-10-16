@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/IguteChung/flakbase/pkg/data"
-	"github.com/IguteChung/flakbase/pkg/rules"
+	"github.com/creepinson/flakbase/pkg/data"
+	"github.com/creepinson/flakbase/pkg/rules"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

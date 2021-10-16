@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/IguteChung/flakbase/pkg/db"
-	"github.com/IguteChung/flakbase/pkg/rules"
+	"github.com/creepinson/flakbase/pkg/db"
+	"github.com/creepinson/flakbase/pkg/rules"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/IguteChung/flakbase/pkg/data"
-	"github.com/IguteChung/flakbase/pkg/rules"
+	"github.com/creepinson/flakbase/pkg/data"
+	"github.com/creepinson/flakbase/pkg/rules"
 )
 
 // DB defines the database interface for Flakbase.

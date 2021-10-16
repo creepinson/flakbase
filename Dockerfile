@@ -1,4 +1,4 @@
-FROM golang:1.12-alpine
+FROM golang:alpine
 
 ENV GOPATH /go
 ENV GO111MODULE on
@@ -8,9 +8,9 @@ WORKDIR /flakbase
 ADD . /flakbase
 RUN go install
 
-FROM alpine:3.9
+FROM alpine:latest
 
 EXPOSE 9527
 COPY --from=0 /go/bin/flakbase /usr/bin/flakbase
 
-CMD flakbase
+CMD flakbase serve -m /data/mongo.json

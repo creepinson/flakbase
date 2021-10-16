@@ -15,7 +15,7 @@ func TestUnmarshalListenQuery(t *testing.T) {
 		Type:      TypeListen,
 		Ref:       "/path",
 		RequestID: 10,
-		Query: &Query{
+		Query: Query{
 			ID:         3,
 			StartAt:    float64(5),
 			StartKey:   "startKey",
@@ -36,7 +36,7 @@ func TestUnmarshalUnlistenQuery(t *testing.T) {
 		Type:      TypeUnlisten,
 		Ref:       "/path",
 		RequestID: 10,
-		Query: &Query{
+		Query: Query{
 			ID:         3,
 			StartAt:    float64(5),
 			StartKey:   "startKey",

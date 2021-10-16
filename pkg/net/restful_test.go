@@ -10,11 +10,11 @@ import (
 
 func TestParseInvalidQuery(t *testing.T) {
 	values := []url.Values{
-		url.Values{"limitToFirst": []string{"3"}, "limitToLast": []string{"2"}},
-		url.Values{"limitToFirst": []string{"A"}},
-		url.Values{"limitToLast": []string{"A"}},
-		url.Values{"equalTo": []string{"value"}, "startAt": []string{"value2"}},
-		url.Values{"equalTo": []string{"value"}, "endAt": []string{"value2"}},
+		{"limitToFirst": []string{"3"}, "limitToLast": []string{"2"}},
+		{"limitToFirst": []string{"A"}},
+		{"limitToLast": []string{"A"}},
+		{"equalTo": []string{"value"}, "startAt": []string{"value2"}},
+		{"equalTo": []string{"value"}, "endAt": []string{"value2"}},
 	}
 
 	for _, v := range values {

@@ -10,9 +10,9 @@ import (
 func TestUnupgradable(t *testing.T) {
 	cases := []http.Header{
 		nil,
-		http.Header{},
-		http.Header{"content-type": []string{"application/json"}},
-		http.Header{"Upgrade": []string{"h2c"}},
+		{},
+		{"content-type": []string{"application/json"}},
+		{"Upgrade": []string{"h2c"}},
 	}
 
 	for _, c := range cases {
